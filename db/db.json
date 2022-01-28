@@ -1,0 +1,167 @@
+{
+  "ingredientes": {
+    "tamanhos": [
+      {
+        "id": 1,
+        "tipo": "Pequena (4 fatias)"
+      },
+      {
+        "id": 2,
+        "tipo": "Média (6 fatias)"
+      },
+      {
+        "id": 3,
+        "tipo": "Grande (8 fatias)"
+      },
+      {
+        "id": 4,
+        "tipo": "Gigante (12 fatias)"
+      }
+    ],
+    "bordas": [
+      {
+        "id": 1,
+        "tipo": "Nenhuma"
+      },
+      {
+        "id": 2,
+        "tipo": "Catupiry"
+      },
+      {
+        "id": 3,
+        "tipo": "Cheddar"
+      },
+      {
+        "id": 4,
+        "tipo": "Cream Cheese"
+      },
+      {
+        "id": 5,
+        "tipo": "Requeijão"
+      }
+    ],
+    "tipos": [
+      {
+        "id": 1,
+        "tipo": "Bacon"
+      },
+      {
+        "id": 2,
+        "tipo": "Calabresa"
+      },
+      {
+        "id": 3,
+        "tipo": "Salame"
+      },
+      {
+        "id": 4,
+        "tipo": "Tomate"
+      },
+      {
+        "id": 5,
+        "tipo": "Cebola roxa"
+      },
+      {
+        "id": 6,
+        "tipo": "Mussarela"
+      },
+      {
+        "id": 7,
+        "tipo": "Presunto"
+      },
+      {
+        "id": 8,
+        "tipo": "Frango"
+      }
+    ]
+  },
+  "status": [
+    {
+      "id": 1,
+      "tipo": "Solicitado"
+    },
+    {
+      "id": 2,
+      "tipo": "Em produção"
+    },
+    {
+      "id": 3,
+      "tipo": "Finalizado"
+    }
+  ],
+  "pizzas": [
+    {
+      "nome": "Guilherme Arana",
+      "endereco": "rua abc ",
+      "tamanho": "Grande (8 fatias)",
+      "borda": "Cream Cheese",
+      "tipos": [
+        "Bacon",
+        "Frango",
+        "Mussarela",
+        "Tomate",
+        "Cebola roxa"
+      ],
+      "status": "Finalizado",
+      "id": 1
+    },
+    {
+      "nome": "Hulk paraiba",
+      "endereco": "Rua x",
+      "tamanho": "Grande (8 fatias)",
+      "borda": "Catupiry",
+      "tipos": [
+        "Frango",
+        "Mussarela",
+        "Cebola roxa"
+      ],
+      "status": "Finalizado",
+      "id": 2
+    },
+    {
+      "nome": "Zaracho",
+      "endereco": "Rua A",
+      "tamanho": "Grande (8 fatias)",
+      "borda": "Requeijão",
+      "tipos": [
+        "Cebola roxa",
+        "Salame",
+        "Tomate",
+        "Mussarela"
+      ],
+      "status": "Finalizado",
+      "id": 3
+    },
+    {
+      "nome": "Allan",
+      "endereco": "Rua Pitbull",
+      "tamanho": "Grande (8 fatias)",
+      "borda": "Catupiry",
+      "tipos": [
+        "Cebola roxa",
+        "Calabresa",
+        "Tomate",
+        "Presunto",
+        "Bacon"
+      ],
+      "status": "Em produção",
+      "id": 4
+    },
+    {
+      "nome": "Keno",
+      "endereco": "Rua XL",
+      "tamanho": "Gigante (12 fatias)",
+      "borda": "Cheddar",
+      "tipos": [
+        "Cebola roxa",
+        "Salame",
+        "Presunto",
+        "Bacon",
+        "Tomate",
+        "Mussarela"
+      ],
+      "status": "Em produção",
+      "id": 5
+    }
+  ]
+}
