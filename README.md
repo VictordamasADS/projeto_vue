@@ -12,17 +12,9 @@ vue create projeto_vue
 
 ```
 
-### Compiles and hot-reloads for development
+### Compiles and reloads for development
 ```
 npm run serve
 
 npm run backend
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
